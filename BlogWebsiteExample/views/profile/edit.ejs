@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>User Profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/stylesheets/mainblog.css">
+  <link rel="stylesheet" href="/stylesheets/main.css">
+</head>
+
+<body>
+  <nav class="navigation">
+    <a href="/">
+      <img class="logo" src="/imgs/logo.jpeg" alt="logo'HEALTHWISE INSIGHTS'">
+    </a>
+    <span class="links">
+      <a class="all_blogs" href="/blog">All blogs</a>
+      <a class="about_us" href="/aboutus">About us</a>
+    </span>
+    <span class="nav_buttons">
+    </span>
+  </nav>
+
+  <div class="container">
+    <div class="right">
+      <h1 id="userProfile">User Profile</h1>
+      <form class="formcont" action="/profile/<%= user._id %>?_method=PUT" method="POST">
+
+        <label class="name" for="name"><b>Name:</b></label>
+        <input class="Name" value="<%= user.name %>" type="text" name="name">
+        <label class="about" for="aboutMe"><b>About Me:</b></label>
+        <textarea name="aboutMe" id="" cols="30" rows="5"><%= user.aboutMe %></textarea>
+        <label class="work" name="workExperience"><b>Work Experience:</b></label>
+        <textarea name="workExperience" id="" cols="30" rows="10"><%= user.workExperience %></textarea>
+        <button class="update">Update</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+
+</html>

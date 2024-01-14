@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: inter, sans-serif;
+}
+
+.navigation {
+  background: #b7d5a9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  width: 18%;
+}
+
+a {
+  text-decoration-line: none;
+  color: black;
+  text-align: center;
+}
+
+.navLinks {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 4.5%;
+}
+
+.needHelp {
+  background: #eff0da;
+  /* font-family: inter, sans-serif; */
+  font-weight: 700;
+  border-radius: 20px;
+  border-width: 1px;
+  margin-right: 5%;
+  padding: 0.5% 0.8%;
+}
+
+.needHelp:hover {
+  opacity: 80%;
+}
+
+.needHelp:active {
+  opacity: 100%;
+}
+
+.upperHalf {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 2.5% 0;
+}
+
+.simi {
+  width: 50%;
+  height: 85%;
+  border: 1.3rem #d9d9d9 solid;
+  border-radius: 20%;
+  margin-left: 15%;
+}
+
+.bold {
+  display: inline;
+  font-weight: 700;
+}
+
+.content {
+  width: 75%;
+  height: 80%;
+  place-self: center;
+  margin-top: 5%;
+}
+
+.name {
+  color: #526947;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-bottom: 1%;
+}
+
+.tagline {
+  padding-bottom: 3%;
+  font-size: 30px;
+}
+
+.para {
+  line-height: 170%;
+  padding-bottom: 6%;
+  font-size: 20px;
+}
+
+.login {
+  background: #b7d5a9;
+  padding: 0.4rem 1.7rem;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.login:hover {
+  opacity: 80%;
+}
+
+.login:active {
+  opacity: 100%;
+}
+
+.chat {
+  position: absolute;
+  left: 55%;
+  top: 50%;
+}
+
+.chatButton {
+  background: #aba9ff;
+  border: 1px black solid;
+  border-radius: 10px;
+  font-weight: 700;
+  padding: 0.5% 1%;
+  margin-bottom: 2%;
+  font-size: 1.2rem;
+}
+
+.chatButton:hover {
+  opacity: 80%;
+}
+
+.chatButton:active {
+  opacity: 100%;
+}
+
+.chatDisplay {
+  display: flex;
+  border: 1px black solid;
+  border-radius: 20px;
+  padding: 2% 2%;
+  background: white;
+  width: 40%;
+  height: 20%;
+}
+
+.chatBox {
+  padding-left: 10%;
+}
+
+.chatDP {
+  width: 20%;
+  border-radius: 50px;
+}
+
+.lowerHalf {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  padding-bottom: 3%;
+}
+
+.leftBox,
+.links {
+  width: 75%;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: #eff0da;
+}
+
+.leftBox {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 12%;
+}
+
+.textImg {
+  width: 40%;
+  border: none;
+}
+
+.leftBoxText {
+  padding: 3% 5%;
+}
+
+h2 {
+  font-weight: 400;
+  padding-bottom: 7%;
+}
+
+.text {
+  line-height: 140%;
+}
+
+.links {
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  /* place-items: center; */
+}
+
+.supportButton {
+  background: #f4f0dc;
+  font-size: 130%;
+  font-weight: 700;
+  padding: 3% 5%;
+  border: 1px black solid;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+
+.supportButton:hover {
+  opacity: 70%;
+}
+
+.supportButton:active {
+  opacity: 100%;
+}
+
+.supportText {
+  line-height: 140%;
+  font-size: 20px;
+}
+
+.signs,
+.therapy {
+  font-size: 150%;
+  font-weight: 400;
+  line-height: 300%;
+  padding-top: 3%;
+  text-decoration: underline black 1px;
+}
+
+a:hover {
+  font-weight: 700;
+}
+
+a:active {
+  font-weight: 400;
+}

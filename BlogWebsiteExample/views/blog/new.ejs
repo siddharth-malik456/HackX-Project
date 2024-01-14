@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+
+<a href="/blog"> Go back to all blogs</a>
+<form action="/blog" method="POST">
+  <label for="title">Title:</label>
+  <input type="text" name="title" required>
+  <label for="category">Category:</label>
+  <select name="category" id="category">
+    <option value="Meditation">Meditation</option>
+    <option value="Relationships">Relationshipsn</option>
+    <option value="Yoga">Yoga</option>
+    <option value="Self-Care">Self-Care</option>
+    <option value="Wellness-Guide">Wellness-Guide</option>
+  </select>
+  <label for="description">description:</label>
+  <textarea cols="30" rows="10" name="description"></textarea>
+  <button>Add</button>
+</form>
+</body>
+
+</html>

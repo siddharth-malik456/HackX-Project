@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 1rem;
+  row-gap: 5rem;
+  padding: 1rem 20rem;
+}
+
+.container div {
+  border: 1px solid black;
+  width: 50%;
+  text-align: center;
+  padding: 1rem 3.5rem;
+  height: 300px;
+}
+
+button {
+  position: absolute;
+  top: 2rem;
+  right: 93%;
+  padding: 0.5rem;
+  border: none;
+  background: white;
+}
+
+button:hover {
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+img {
+  border-radius: 50%;
+}
+
+h4 {
+  font-family: abril fatface;
+  line-height: 3rem;
+  font-size: 1.3rem;
+}
+
+p {
+  font-family: inter;
+  line-height: 2rem;
+  padding: 0 0.3rem;
+}

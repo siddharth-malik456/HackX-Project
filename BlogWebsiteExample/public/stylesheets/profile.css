@@ -1,0 +1,164 @@
+h4 {
+  font-family: abril fatface;
+  line-height: 3rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+a {
+  padding-left: 30px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.navigation {
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 300px;
+  height: 50px;
+  padding-left: 10px;
+}
+
+.nav_buttons {
+  font-family: inter;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+  margin-right: 4rem;
+  width: 180px;
+}
+
+.profile {
+  background-color: #79a64e;
+  color: white;
+  height: 70%;
+  padding: 0 20px;
+  border-radius: 40px;
+  font-size: 1rem;
+  border: none;
+  margin-right: 2rem;
+}
+
+.profile:hover {
+  background: white;
+  color: #79a64e;
+}
+
+.profile:active {
+  opacity: 70%;
+}
+
+.sign_out {
+  background-color: #f29a29;
+  color: white;
+  height: 70%;
+  padding: 0 20px;
+  border-radius: 40px;
+  font-size: 1rem;
+  border: none;
+}
+
+.sign_out:hover {
+  background: white;
+  color: #f29a29;
+}
+
+.sign_out:active {
+  opacity: 70%;
+}
+
+.links {
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 26px;
+  font-size: 20px;
+  width: 400px;
+}
+
+#userProfile {
+  color: #79a752;
+  font-family: abril fatface;
+}
+
+.formcont {
+  font-family: abril fatface;
+}
+
+.update {
+  background-color: #f19a29;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 60px;
+  font-family: "Abril Fatface";
+  font-size: 20px;
+  margin-left: 30%;
+}
+
+.update:hover {
+  opacity: 70%;
+}
+
+.update:active {
+  opacity: 100%;
+}
+
+.right {
+  width: 30%;
+  padding-left: 100%;
+  margin-left: 30%;
+}
+
+.all_blogs {
+  text-decoration-line: none;
+  color: #3d443e;
+  font-family: "Abril Fatface";
+  font-family: "Libre Baskerville", serif;
+}
+
+.category {
+  text-decoration-line: none;
+  color: #3d443e;
+  font-family: "Abril Fatface";
+  font-family: "Libre Baskerville", serif;
+}
+
+.about_us {
+  text-decoration-line: none;
+  color: #3d443e;
+  font-family: "Abril Fatface";
+  font-family: "Libre Baskerville", serif;
+}
+
+.name {
+  color: #f19a29;
+}
+
+.about {
+  color: #f19a29;
+}
+
+.work {
+  color: #f19a29;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("imgs/oranges.jpeg");
+  background-size: 50%;
+  background-position: left;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}

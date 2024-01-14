@@ -1,0 +1,177 @@
+.main-blog-img {
+  width: 100%;
+}
+
+.six-button {
+  background-color: #a7a7a7;
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 10px 50px;
+  border-radius: 60px;
+}
+
+.six-button:hover {
+  background-color: black;
+}
+
+.six-button:active {
+  opacity: 70%;
+}
+
+.main-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.blog-container {
+  border: solid 1px black;
+  border-radius: 30px;
+  margin-left: 70px;
+  margin-top: 50px;
+  margin-right: 70px;
+  padding: 20px 30px;
+}
+
+.blog-title {
+  font-family: "Inter";
+  font-size: 35px;
+}
+.blog-author {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  text-align: right;
+  padding-top: 10px;
+}
+.blog-category {
+  padding-top: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+#add-new {
+  background-color: black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 45%;
+}
+
+.all_blogs,
+.about_us {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: inter, sans-serif;
+}
+
+.navigation {
+  background: #b7d5a9;
+  /* font-family: inter, sans-serif; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  width: 18%;
+}
+
+.links a {
+  text-decoration-line: none;
+  color: black;
+  text-align: center;
+}
+
+.links {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 4.5%;
+}
+
+.needHelp {
+  background: #eff0da;
+  /* font-family: inter, sans-serif; */
+  font-weight: 700;
+  border-radius: 20px;
+  border-width: 1px;
+  margin-right: 5%;
+  padding: 0.5% 0.8%;
+}
+
+.needHelp:hover {
+  opacity: 80%;
+}
+
+.needHelp:active {
+  opacity: 100%;
+}
+a:hover {
+  font-weight: 700;
+}
+
+a:active {
+  font-weight: 400;
+}
+
+button {
+  border-radius: 100px;
+  background-color: #b7d5a9;
+  padding: 10px 25px;
+}
+
+.btn:hover {
+  opacity: 80%;
+  font-weight: bold;
+}
+
+.btn:active {
+  opacity: 100%;
+}
+a:hover {
+  font-weight: 700;
+}
+
+a:active {
+  font-weight: 400;
+}
+
+.image img {
+  width: 1263px;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 40px;
+}
+
+.third {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box {
+  background-color: #d9d9d9;
+  height: 80px;
+  width: 1263px;
+  border: black bold 5px;
+}
+
+.bg-img {
+  width: 100%;
+}
+
+.add-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}

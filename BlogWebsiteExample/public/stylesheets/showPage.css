@@ -1,0 +1,136 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+body {
+  margin: 0 0;
+  padding: 0 0;
+  background-size: cover;
+}
+
+.navigation {
+  background: #b7d5a9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  font-family: inter, sans-serif;
+}
+
+.logo {
+  width: 18%;
+}
+
+a {
+  text-decoration-line: none;
+  color: black;
+  text-align: center;
+}
+
+.navLinks {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 4.5%;
+}
+
+a:hover {
+  font-weight: 700;
+}
+
+a:active {
+  font-weight: 400;
+}
+
+.needHelp {
+  background: #eff0da;
+  font-weight: 700;
+  border-radius: 20px;
+  border-width: 1px;
+  margin-right: 5%;
+  padding: 0.5% 0.8%;
+}
+
+.needHelp:hover {
+  opacity: 80%;
+}
+
+.needHelp:active {
+  opacity: 100%;
+}
+
+.blog {
+  top: 5rem;
+  margin: 5% 20%;
+}
+
+.studyTitle {
+  font-size: 2rem;
+  text-align: center;
+  font-family: abril fatface, sans-serif;
+  color: #526947;
+}
+
+.study {
+  font-size: 0.9rem;
+  line-height: 2rem;
+  text-align: start;
+  font-family: roboto;
+}
+
+.writer {
+  text-align: right;
+  padding-bottom: 2rem;
+}
+
+.commentDiv {
+  font-family: roboto, sans-serif;
+  margin: 0 25%;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment {
+  text-decoration: underline;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.addComment {
+  color: white;
+  background-color: black;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+}
+
+.comt {
+  margin: 0 25%;
+  padding: 0.5rem;
+  line-height: 2rem;
+}
+
+.actualComment {
+  margin-bottom: 2rem;
+}
+
+.break {
+  margin: 0 25%;
+}
+
+.back-button {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
